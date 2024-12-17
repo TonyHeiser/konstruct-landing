@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <div class="brand">
+    <div class="img-container">
+      <div class="container">
+        <img src="media/konstruct-white.png" alt="konstruct-white__logo">
+        <div class="brand__text">
+          <p class="brand__title">Partner With Konstruct</p>
+          <p class="brand__pg open-sans-regular">An award-winning construction management firm</p>
+        </div>
+        <button class="open-sans-regular scroll-down" id="scroll-btn">Scroll Down</button>
+      </div>
+    </div>
+  </div>
+  <header class="header" id="header">
+    <div class="container">
+      <div class="header__logo">
+        <img src="media/konstruct-black.svg" alt="konstruct-black__logo">
+      </div>
+      <ul class="header__menu">
+        <li><a href="#" class="open-sans-semi-bold">Home</a></li>
+        <li><a href="#" class="open-sans-semi-bold">About</a></li>
+        <li><a href="#" class="open-sans-semi-bold">Services</a></li>
+        <li><a href="#" class="open-sans-semi-bold">Work</a></li>
+        <li><a href="#" class="open-sans-semi-bold">Contact</a></li>
+      </ul>
+      <button class="header__burger-menu" id="show-menu__btn">
+        <div class="burger-menu__dash"></div>
+        <div class="burger-menu__dash"></div>
+        <div class="burger-menu__dash"></div>
+      </button>
+      <div class="mobile-menu__container">
+        <div class="header__logo">
+          <img src="media/konstruct-white-svg.svg" alt="konstruct-black__logo">
+          <button class="close-btn" id="close-menu">X</button>
+        </div>
+        <ul class="header-menu__mobile">
+          <li><a href="#" class="open-sans-semi-bold">Home</a></li>
+          <li><a href="#" class="open-sans-semi-bold">About</a></li>
+          <li><a href="#" class="open-sans-semi-bold">Services</a></li>
+          <li><a href="#" class="open-sans-semi-bold">Work</a></li>
+          <li><a href="#" class="open-sans-semi-bold">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </header>
+  <section class="our-story" id="our-story">
+    <div class="container">
+      <p class="our-story__title open-sans-bold item appear2">Our Story</p>
+      <div class="blue-dash item appear2"></div>
+      <div class="our-story__content">
+        <div class="our-story__info">
+          <p class="info__title open-sans-bold item appear2">
+            Founded in 2011 by John Mathew Smith, <span class="text-blue">Konstruct</span> has become the number one construction management firm
+          </p>
+          <p class="info__text open-sans-regular item appear2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo nobis praesentium a minima ullam delectus non eaque perspiciatis consectetur cumque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis iusto magnam perspiciatis excepturi maiores, qui officiis incidunt dolor aperiam pariatur.</p>
+        </div>
+        <div class="our-story__cards">
+          <div class="we-plan card item appear2">
+            <h2 class="open-sans-extra-bold">We <br> plan
+            </h2>
+          </div>
+          <div class="we-manage card item appear2"><h2 class="open-sans-extra-bold">We <br> Manage</h2></div>
+          <div class="we-build card item appear2"><h2 class="open-sans-extra-bold">We <br> Build</h2></div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="our-capabilities">
+    <div class="container">
+      <div class="our-capabilities__head">
+        <div class="our-capabilities__title-container">
+          <h2 class="our-capabilities__title open-sans-bold item appear2">Our Capabilities</h2>
+          <div class="our-capabilities__dash item appear2"></div>
+        </div>
+        <p class="our-capabilities__text open-sans-regular item appear2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem enim dolores beatae quae, fugiat voluptatibus aliquam officia repellendus soluta est.</p>
+        <button class="our-capabilities__button open-sans-bold item appear2">All Services</button>
+      </div>
+      <div class="our-capabilities__content">
+        <div class="our-capabilities__card item appear2 ">
+          <img src="media/project.svg" alt="project-icon">
+          <h3 class="card-title open-sans-bold">Project and Construction Management</h3>
+          <p class="card-text open-sans-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus omnis perspiciatis quo natus voluptates earum eligendi repellat sit consectetur et.</p>
+        </div>
+        <div class="our-capabilities__card item appear2">
+          <img src="media/structure.svg" alt="project-icon">
+          <h3 class="card-title open-sans-bold">Structure audit and Maintenance</h3>
+          <p class="card-text open-sans-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus omnis perspiciatis quo natus voluptates earum eligendi repellat sit consectetur et.</p>
+        </div>
+        <div class="our-capabilities__card item appear2">
+          <img src="media/factory.svg" alt="project-icon">
+          <h3 class="card-title open-sans-bold">Factory construction and Modeling</h3>
+          <p class="card-text open-sans-regular">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus omnis perspiciatis quo natus voluptates earum eligendi repellat sit consectetur et.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="get-in-touch" id="get-in-touch">
+    <div class="img-container item appear2">
+      <div class="container">
+        <h2 class="get-in-touch__title open-sans-bold item appear2">Want to build <br> something amazing?</h2>
+        <button class="get-in-touch__button open-sans-bold item appear2">Get In Touch</button>
+      </div>
+    </div>
+  </section>
+  <footer class="footer">
+    <div class="footer__head">
+      <div class="container">
+        <h2 class="footer__title open-sans-bold">Newsletter Signup</h2>
+        <div class="footer__email">
+          <input type="email" placeholder="test@youremail.com" class="open-sans-regular" required>
+          <button type="submit" class="footer__btn open-sans-bold">Signup</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer__content">
+      <div class="container">
+        <div class="footer__company">
+          <h3 class="footer__title open-sans-regular">Company</h3>
+          <img src="media/footer-logo.svg" alt="footer-logo" class="logo">
+          <p class="footer__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti eius deserunt nesciunt facilis soluta praesentium illum beatae voluptas dolor accusantium.</p>
+        </div>
+        <div class="footer__links">
+          <h3 class="footer__title">Links</h3>
+          <div class="footer__links-list">
+            <ul class="footer__links-one">
+              <li><a href="#" class="footer__link">Home</a></li>
+              <li><a href="#" class="footer__link">About</a></li>
+              <li><a href="#" class="footer__link">Services</a></li>
+              <li><a href="#" class="footer__link">Projects</a></li>
+              <li><a href="#" class="footer__link">Contact Us</a></li>
+            </ul>
+            <ul class="footer__links-one">
+              <li><a href="#" class="footer__link">FAQ</a></li>
+              <li><a href="#" class="footer__link">Terms</a></li>
+              <li><a href="#" class="footer__link">Careers</a></li>
+            </ul>
+            <ul class="footer__links-one">
+              <li><a href="#" class="footer__link">Blog</a></li>
+              <li><a href="#" class="footer__link">Partners</a></li>
+              <li><a href="#" class="footer__link">News</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__contact-us">
+          <h3 class="footer__title open-sans-regular">Contact Us</h3>
+          <p class="footer__text">213 Baker Street Oriel City Kounty 7000 KNW, Kounty Name</p>
+          <p class="footer__text">+23 994 233 4022</p>
+          <p class="footer__text">info@konstruct.com</p>
+        </div>
+        <div class="footer__socials">
+          <img src="media/facebook-app-round-white-icon.svg" alt="facebook-icon">
+          <img src="media/icons8-twitterx.svg" alt="twitter-icon">
+          <img src="media/icons8-google.svg" alt="google-icon">
+        </div>
+      </div>
+    </div>
+    <div class="footer__copyright">
+      <p class="copyright__text open-sans-regular">&copy; <span id="year"></span> Konstruct Inc. Designed by Jane Kathryn Teo</p>
+    </div>
+  </footer>
+  <script src="year.js"></script>
+  <script src="scroll-down.js"></script>
+  <script src="hide-header.js"></script>
+  <script src="fade-in.js"></script>
+  <script src="show-menu.js"></script>
+</body>
+</html>
