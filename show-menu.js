@@ -1,6 +1,8 @@
 const showMenuBtn = document.getElementById("show-menu__btn");
 const mobileMenuContainer = document.querySelector(".mobile-menu__container");
 const body = document.body;
+const mobileLinks = document.querySelectorAll(".mobile-link");
+console.log(mobileLinks);
 
 showMenuBtn.addEventListener("click", function(e) {
   e.preventDefault();
@@ -15,4 +17,12 @@ closeMenuBtn.addEventListener("click", function(e) {
   mobileMenuContainer.classList.remove("show");
   showMenuBtn.classList.remove("active");
   body.classList.remove("no-scroll");
+});
+
+mobileLinks.forEach((link) => {
+  link.addEventListener("click", function() {
+    mobileMenuContainer.classList.remove("show");
+    showMenuBtn.classList.remove("active");
+    body.classList.remove("no-scroll");
+  })
 });
