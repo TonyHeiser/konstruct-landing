@@ -289,7 +289,7 @@ header.header {
       flex-wrap: wrap;
       justify-content: space-between;
       padding: 11px 10px;
-      border-radius: 5px;
+      /* border-radius: 5px; */
       cursor: pointer;
       transition: 0.2s;
 
@@ -297,14 +297,23 @@ header.header {
         height: 2px;
         background-color: #00A4E5;
         width: 100%;
+        transition: 0.5s;
       }
     }
 
     button.header__burger-menu.active {
-      background-color: #171819;
+      background-color: #00A4E5;
 
       .burger-menu__dash {
         background-color: #fff;
+      }
+
+      .burger-menu__dash:first-child {
+        transform: translateY(8px);
+      }
+
+      .burger-menu__dash:last-child {
+        transform: translateY(-8px);
       }
     }
   }
